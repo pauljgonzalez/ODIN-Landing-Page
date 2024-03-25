@@ -1,0 +1,96 @@
+*{ outline: 1px solid red; }
+
+.container-one{
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding-left: 256px;
+    padding-right: 256px;
+}
+.container-two{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container-three{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e5e7eb;
+}
+.container-four{
+    display: flex;
+    justify-content: center;
+    
+}
+.container-five{
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    color: white;
+   
+}
+
+.header{
+    display: flex;
+    font-size: 24px;
+    justify-content: space-between;
+    
+}
+.header-logo{
+    display: flex;
+    color: #f9faf8;
+    font-weight: bold;
+    
+}
+.header-links{
+    display: flex;
+    font-size: 18px;
+    color: #e5e7eb;
+    gap: 32px;
+    align-items: center;
+    
+}
+.c1-textbox{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+.c1-block1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    
+}
+.c1-awesome{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: bolder;
+}
+.awesome-under-text{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.four-boxes{
+display: flex;
+gap: 16px;
+}
+.quote{
+
+}
+.author{
+
+}
+.blue-box{
+    display: flex;
+    align-items: center;
+    background-color: #3882f6;
+    width: 600px;
+    justify-content: space-between;
+
+}
+.blue-box-text{
+    display: flex;
+    flex-direction: column;
+}
