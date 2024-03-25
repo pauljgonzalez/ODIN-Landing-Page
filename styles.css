@@ -1,4 +1,9 @@
-*{ outline: 1px solid red; }
+*{ 
+/* outline: 1px solid red;  */
+font-family: "Roboto";
+}
+body { margin: 0}
+hmtl { margin: 0}
 
 .container-one{
     background-color: #1f2937;
@@ -12,16 +17,24 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 32px;
+    margin-bottom: 128px;
 }
 .container-three{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     background-color: #e5e7eb;
+    margin-top: 64px;
+    margin-bottom: 64px;
+    height: 300px;
 }
 .container-four{
     display: flex;
     justify-content: center;
+    height: 350px;
+    align-items: center;
     
 }
 .container-five{
@@ -29,6 +42,8 @@
     justify-content: center;
     background-color: #1f2937;
     color: white;
+    height: 100px;
+    align-items: center;
    
 }
 
@@ -72,25 +87,88 @@
     font-size: 18px;
     color: #e5e7eb;
 }
+.c2-text{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: bolder;
+    margin-bottom: 48px;
+}
 .four-boxes{
 display: flex;
-gap: 16px;
+width: 1000px;
+justify-content: space-around;
+}
+.box-container{
+display: flex;
+flex-direction: column;
+max-width: 125px;
+}
+.box{
+width: 120px;
+height: 120px;
+border-radius: 20px;
+border-style: solid;
+border-color: #3882f6;
+margin-bottom: 16px;
+}
+.box-text{
+text-align: center;
+font-weight: bold;
 }
 .quote{
-
+display: flex;
+flex-wrap: wrap;
+max-width: 800px;
+font-style: italic;
 }
 .author{
-
+display: flex;
+justify-content: flex-end;
+font-weight: 800;
 }
+
 .blue-box{
     display: flex;
-    align-items: center;
     background-color: #3882f6;
-    width: 600px;
+    width: 1200px;
     justify-content: space-between;
-
+    height: 100px;
+    border-radius: 15px;
+    align-items:center;
 }
 .blue-box-text{
     display: flex;
     flex-direction: column;
+   
+
+    
 }
+.bb-top-text{
+color: white;
+font-weight: bold;
+font-size: 18px;
+margin-right: 600px;
+}
+.bb-bottom-text{
+color: white;
+font-size: 10px;
+}
+.sign-up-button{
+   background-color: #3882f6; 
+   color: white;
+   text-align: center;
+   width: 128px;
+   border-radius: 25px;
+   border-style: none  ;
+}
+.sign-up-button-white{
+
+    background-color: #3882f6; 
+    color: white;
+    text-align: center;
+    width: 128px;
+    border-radius: 25px;
+    margin-right: 32px;
+    border-color: white;
+    border-style: solid ;
+ }

@@ -8,3 +8,6 @@ Tech used: HTML, CSS, Flexbox
 
 
 Lessons Learned:
+How to maniuplate FLexbox
+How to use containers to move text and images around on the webpage
+Laying out the website on paper first and using boxes/containers to know the general html layout
